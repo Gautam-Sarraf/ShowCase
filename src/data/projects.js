@@ -10,8 +10,8 @@ export const projects = [
       "/assets/projects/chickaros/2.png"
     ],
     techStack: ["Next.js", "React", "Framer Motion", "Tailwind CSS", "Semantic HTML"],
-    liveLink: "https://github.com/gautam-sarraf",
-    github: "https://github.com/gautam-sarraf/chik_test",
+    liveLink: "https://chick-demo.netlify.app/",
+    github: "https://github.com/Gautam-Sarraf/Chick",
     stats: {
       role: "Lead Frontend Developer",
       duration: "2 Weeks",

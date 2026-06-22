@@ -31,8 +31,8 @@ export const projects = [
       "/assets/projects/resume-analyzer/2.png"
     ],
     techStack: ["Python", "FastAPI", "React", "OpenAI Embeddings", "FAISS Vector DB", "NLP"],
-    liveLink: "https://github.com/gautam-sarraf",
-    github: "https://github.com/gautam-sarraf/resume_analyzer",
+    liveLink: "https://xhiresense.netlify.app/",
+    github: "https://github.com/Gautam-Sarraf/Resume_analyzer",
     stats: {
       role: "AI & Backend Architect",
       duration: "1 Month",

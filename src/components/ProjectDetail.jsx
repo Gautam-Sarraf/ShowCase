@@ -32,7 +32,7 @@ export default function ProjectDetail({ project, onBack }) {
         {/* Project Stats Panel */}
         <div className="detail-stats-panel">
           <div className="stat-item">
-            <span className="stat-label">My Role</span>
+            <span className="stat-label">Our Role</span>
             <span className="stat-value">{project.stats.role}</span>
           </div>
           <div className="stat-item">

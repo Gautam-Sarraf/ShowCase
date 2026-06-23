@@ -9,7 +9,7 @@ export default function NavDrawer({ onClose, onHome, onScrollToWorks, onOpenCont
         onClick={(e) => e.stopPropagation()}
       >
         <div className="nav-drawer-header">
-          <span className="logo">gautam<span className="logo-dot">.</span></span>
+          <span className="logo">showcase<span className="logo-dot">.</span></span>
           <button onClick={onClose} className="btn-icon-only" aria-label="Close menu">
             <X size={20} />
           </button>
@@ -52,7 +52,7 @@ export default function NavDrawer({ onClose, onHome, onScrollToWorks, onOpenCont
         </nav>
 
         <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '24px' }}>
-          <span className="form-label">Find me on</span>
+          <span className="form-label">Connect with us</span>
           <div className="footer-socials">
             <a 
               href="https://github.com/gautam-sarraf" 

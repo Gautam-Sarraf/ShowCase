@@ -105,10 +105,10 @@ function App() {
         <div className="container footer-container">
           <div className="footer-brand">
             <a href="#" className="footer-logo">
-              gautam<span className="logo-dot">.</span>
+              showcase<span className="logo-dot">.</span>
             </a>
             <p className="footer-copy">
-              &copy; {new Date().getFullYear()} Gautam Sarraf. All rights reserved.
+              &copy; {new Date().getFullYear()} Showcase Labs. All rights reserved.
             </p>
           </div>
           

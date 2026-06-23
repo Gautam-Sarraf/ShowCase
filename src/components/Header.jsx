@@ -6,7 +6,7 @@ export default function Header({ onOpenContact, onOpenMenu, theme, onToggleTheme
     <header className="header">
       <div className="container header-container">
         <a href="#" className="logo">
-          gautam<span className="logo-dot">.</span>
+          showcase<span className="logo-dot">.</span>
         </a>
         <div className="nav-actions">
           <button onClick={onOpenContact} className="btn btn-secondary">

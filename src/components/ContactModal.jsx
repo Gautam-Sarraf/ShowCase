@@ -21,7 +21,7 @@ export default function ContactModal({ onClose }) {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          subject: `Portfolio Contact: ${formData.name}`
+          subject: `Business Inquiry: ${formData.name}`
         })
       });
 
@@ -64,7 +64,7 @@ export default function ContactModal({ onClose }) {
             </div>
             <h3 className="modal-success-title">Message Sent!</h3>
             <p className="modal-success-desc">
-              Thank you for reaching out. Gautam will get back to you shortly.
+              Thank you for reaching out. Our team will get back to you shortly.
             </p>
             <button onClick={onClose} className="btn btn-primary" style={{ width: '100%' }}>
               Close Window
@@ -104,7 +104,7 @@ export default function ContactModal({ onClose }) {
                 id="message"
                 required
                 rows={4}
-                placeholder="Tell me about your project..."
+                placeholder="Tell us about your project..."
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 className="form-input form-textarea"

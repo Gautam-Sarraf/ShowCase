@@ -82,5 +82,68 @@ export const projects = [
     },
     challenges: "Writing an optimization algorithm that evaluates 15+ concurrent rostering restrictions while keeping processing latency under 2 seconds.",
     architecture: "React Gantt Grid -> REST API Middleware -> Shift Constraint Evaluator -> PostgreSQL Transaction Layer"
+  },
+  {
+    id: "ggs-forex",
+    title: "GGs Forex Board",
+    subtitle: "Real-time Forex Analytics Dashboard",
+    description: "A real-time foreign exchange analytics dashboard providing live exchange rate tracking, historical currency charts, and technical indicator metrics.",
+    longDescription: "A high-performance foreign exchange monitoring platform designed to provide traders with real-time rate updates, historical charts, and complex technical analysis indicators. The application aggregates ticks from top-tier liquidity providers and streams them using high-speed WebSocket connections to ensure millisecond-level precision.\n\nFeaturing customizable charting panels, real-time alert notifications, and historical spread analysis, the application handles high volumes of live market data, keeping layout paint times low and user interaction responsive.",
+    images: [
+      "/assets/projects/ggs-forex/1.png",
+      "/assets/projects/ggs-forex/2.png"
+    ],
+    techStack: ["React", "Node.js", "WebSockets", "Chart.js", "Express", "REST APIs"],
+    liveLink: "https://github.com/gautam-sarraf",
+    github: "https://github.com/gautam-sarraf",
+    stats: {
+      role: "Full Stack Developer",
+      duration: "1 Month",
+      impact: "Sub-50ms tick-to-render update latency"
+    },
+    challenges: "Rendering rapid live tick updates on complex multi-line charts without triggering heavy layout thrashing or UI performance drops.",
+    architecture: "Liquidity Provider API -> Node.js WebSocket Bridge -> Client Store State Manager -> Canvas-based Chart Renderer"
+  },
+  {
+    id: "kyc-automation",
+    title: "CP-KYC Automation",
+    subtitle: "Automated KYC Verification Pipeline",
+    description: "An automated Know Your Customer (KYC) pipeline that extracts data from identity documents and runs automated verification checks.",
+    longDescription: "A secure, automated identity verification platform designed to streamline KYC/AML workflows for financial institutions. The system accepts document uploads, performs layout checks, and leverages OCR engines to extract user details from national IDs, passports, and utility bills.\n\nTo ensure compliance, the extracted records are cross-checked with official databases, while a facial matching model compares the document picture against a live selfie upload, returning a comprehensive risk score card.",
+    images: [
+      "/assets/projects/kyc-automation/1.png",
+      "/assets/projects/kyc-automation/2.png"
+    ],
+    techStack: ["Python", "OpenCV", "Tesseract OCR", "FastAPI", "React", "Docker"],
+    liveLink: "https://github.com/gautam-sarraf",
+    github: "https://github.com/gautam-sarraf",
+    stats: {
+      role: "AI & Automation Developer",
+      duration: "2 Months",
+      impact: "Reduced KYC onboarding verification time by 85%"
+    },
+    challenges: "Achieving high accuracy in OCR text extraction across low-resolution or skewed document images under poor lighting conditions.",
+    architecture: "FastAPI Pipeline -> Pre-processing (OpenCV) -> Tesseract OCR -> Facial Recognition Engine -> Verification Report Node"
+  },
+  {
+    id: "teamsphere",
+    title: "TeamSphere Hub",
+    subtitle: "Collaborative Workspace Platform",
+    description: "A real-time workspace platform integrating channel messaging, interactive synchronized whiteboards, and WebRTC video calls.",
+    longDescription: "A premium, unified collaboration platform built for distributed engineering teams. The application integrates real-time channel communication, multi-user drawing canvases, shared task boards, and peer-to-peer audio/video conferencing into a cohesive user workspace.\n\nBuilt on a MERN stack foundation, the platform relies heavily on socket events for drawing synchronization and presence tracking. The frontend utilizes WebRTC mesh architecture for low-overhead audio/video streaming directly between peers.",
+    images: [
+      "/assets/projects/teamsphere/1.png",
+      "/assets/projects/teamsphere/2.png"
+    ],
+    techStack: ["MongoDB", "Express.js", "React", "Node.js", "Socket.io", "WebRTC"],
+    liveLink: "https://github.com/Gautam-Sarraf/TeamSphere",
+    github: "https://github.com/Gautam-Sarraf/TeamSphere",
+    stats: {
+      role: "Lead Systems Architect",
+      duration: "3 Months",
+      impact: "Seamless real-time canvas sync with <30ms lag"
+    },
+    challenges: "Managing WebSocket conflict resolution on shared canvas operations during concurrent edits by multiple active users.",
+    architecture: "React Canvas -> Socket.io Gateway -> Node.js Coordination Engine -> WebRTC Signaling Server -> MongoDB State Store"
   }
 ];
